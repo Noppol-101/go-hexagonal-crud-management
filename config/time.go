@@ -6,7 +6,6 @@ import (
 )
 
 func InitTimeZone() {
-	fmt.Println("Hello")
 
 	ict, err := time.LoadLocation("Asia/Bangkok")
 	if err != nil {
